@@ -17,4 +17,9 @@ public class JekinsApplication {
     public String index(){
         return "Hello Welcome to Jenkins!  这是我使用Jenkins + Docker自动化部署的第一个应用！";
     }
+
+    @GetMapping("/index")
+    public String index1(){
+        return "Welcome To Index Page !";
+    }
 }
