@@ -13,7 +13,7 @@ public class JekinsApplication {
         SpringApplication.run(JekinsApplication.class, args);
     }
 
-    @GetMapping("/")
+    @GetMapping("/in")
     public String index(){
         return "Hello Welcome to Jenkins!  这是我使用Jenkins + Docker自动化部署的第一个应用！";
     }
